@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: musicalina;
+    src: url(musicalina.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #80daf5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #40e0d0, #2ea89c);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    padding: 30px 0 ;
+    font-family: musicalina ;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+header p {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    background-color: #2ea89c;
+    box-shadow: 3px 3px 8px #0000004;
+}
+
+.menu div{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.menu div:hover {
+    background-color: rgb(105, 71, 255);
+}
+
+main{
+    background-color: white;
+    margin: 0px 10%;
+    padding: 30px;
+    box-shadow: 3px 3px 8px #00000048;
+    
+}
+
+main h1{
+    font-family: Bebas Neue;
+    font-weight: normal;
+    
+}
+
+main h2 {
+    font-family: Bebas Neue;
+    font-weight: normal;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+}
+
+div.imagens {
+    align-items: center;
+}
+
+img{
+    padding: 10px;
+    display: block;
+    margin:auto
+}
+
+.extra {
+    margin: 30px;
+    padding: 20px;
+    background-color: #40e0d0;
+    border-radius: 5px;
+}
+
+.extra h2 {
+    text-align: center;
+    background-color:#2ea89c ;
+    margin: -20px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+.extra p {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.extra ul {
+    list-style: inside;
+}
+
+.extra li {
+    font-weight: bolder;
+    text-align: justify;
+    cursor: pointer;
+    line-height: 2em;
+}
+
+.extra li:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #2ea89c;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
